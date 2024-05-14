@@ -1,6 +1,9 @@
 # CloudSeeding
 
-> A project to explore typography on the web.
+> A project to explore typography on the web through CSS.
 
-## Why Does This Exist?
-To show that I am capable of learning new things.
+## CSS Concepts
+* Typography
+* Box Model
+* CSS Variables
+
