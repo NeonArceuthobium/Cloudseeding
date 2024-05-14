@@ -1,10 +1,6 @@
-# Web Starter
+# CloudSeeding
 
-> Computers are dumb. Humans make them smart.
-
-Starter (boilerplate) for all future projects.
+> A project to explore typography on the web.
 
 ## Why Does This Exist?
-* Don't start with nothing
-* Common boilerplate for web projects
-* I am a human being who makes mistakes
+To show that I am capable of learning new things.
