@@ -1,11 +1,145 @@
-body {
-    background: rgb(226, 255, 252);
+/* ✅ Topic and Content */
+/* ✅ Style Tile */
+/* ✅ Setup on GitHub */
+/* ✅ Setup on Netlify */
+/* 
+https://www.figma.com/color-wheel/
+ ✅ CSS Variables
+*/
+/* ✅ Box Model */
+/* ✅ Float Property */
+/* ✅ Position Properties */
+/* ✅ Background Properties */
+
+/* ✅ Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* ✅  Style Guide via CSS Variables*/
+:root {
+  --color1: #E887E3;
+  --color2: #7DF3A6;
+  --color3: #87E3E8;
+  --primaryfont : "Rubik Bubbles", cursive;
+  --secondaryfont : "Inter", sans-serif;
 }
+
+body {
+font-family: var(--secondaryfont);
+  
+background: #00A5FF;  /* fallback for old browsers */
+background: -webkit-radial-gradient(var(--color1), var(--color3), var(--color2));  /* Chrome 10-25, Safari 5.1-6 */
+background: radial-gradient(var(--color1), var(--color3), var(--color2)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+main {
+  width: 40em;
+  height: 43em;
+  margin: 0 auto;
+  padding: 53px;
+  background: #ffffff75;
+  border-radius: 30px;
+}
+
+/* span {
+  
+  color: var(--color3);
+  
+  background: var(--color2);
+  margin: 10px;
+  padding: 10px;
+  margin-right: 20px;
+
+  font-size: 4rem;
+  float: left;
+
+} */
 
 h1 {
-color: dimgrey;
+  font-family: var(--primaryfont);
+  color: var(--color1);
+  background: var(--color3);
+  text-align: right;
+  border-radius: 30px;
+  padding: 8px;
+  border: dashed 10px;
+  position: relative;
+  top: 18px;
+  right: 300px;
+  margin-bottom: 50px;
 }
 
-p {
-    color: dimgrey;
+h2 {
+  font-family: var(--primaryfont);
+  color: var(--color1);
+  position: relative;
+  left: 35px;
 }
+
+
+
+blockquote {
+  border-left: dashed 10px var(--color1);
+  padding-left: 20px;
+  position: relative;
+  right: 30px;
+}
+
+
+
+li {
+/*   color: var(--color2); */
+  position: relative;
+  right: 6px;
+}
+
+.dropcap {
+  
+  position: relative;
+  right: -40px;
+}
+
+.posth2 {
+  
+  position: relative;
+  left: 35px;
+
+}
+
+
+.twinkling-text {
+    font-size: 1em; /* Adjust size as needed */
+    color: #000; /* Base color */
+    text-shadow: 0 0 5px var(--color1),
+                 0 0 10px var(--color1),
+                 0 0 20px var(--color1);
+    animation: twinkle .3s infinite;
+}
+
+@keyframes twinkle {
+    0% {
+        text-shadow: 0 0 5px var(--color1),
+                     0 0 10px var(--color1),
+                     0 0 20px var(--color1);
+    }
+    50% {
+        text-shadow: 0 0 10px var(--color2),
+                     0 0 20px var(--color2),
+                     0 0 30px var(--color2);
+    }
+    100% {
+        text-shadow: 0 0 5px var(--color3),
+                     0 0 10px var(--color3),
+                     0 0 20px var(--color3);
+    }
+    50% {
+        text-shadow: 0 0 10px var(--color2),
+                     0 0 20px var(--color2),
+                     0 0 30px var(--color2);
+    }
+}
+
+
