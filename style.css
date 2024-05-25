@@ -40,6 +40,7 @@ main {
   height: 43em;
   margin: 0 auto;
   padding: 53px;
+  padding-bottom: 100px;
   background: #ffffff75;
   border-radius: 30px;
 }

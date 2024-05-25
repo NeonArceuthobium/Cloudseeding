@@ -9,3 +9,6 @@
 * Box Model
 * CSS Variables
 
+### Citations
+* https://en.wikipedia.org/wiki/Cloud_seeding
+* https://en.wikipedia.org/wiki/Operation_Popeye
